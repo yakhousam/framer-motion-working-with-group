@@ -13,13 +13,13 @@ function WidgetProcessor({ total }) {
 
   function handleProcessWidget() {
     if (numOfProcessedWidgets < total) {
-      setNumOfProcessedWidgets(numOfProcessedWidgets + 4);
+      setNumOfProcessedWidgets(numOfProcessedWidgets + 1);
     }
   }
 
   function handleRevertWidget() {
     if (numOfProcessedWidgets > 0) {
-      setNumOfProcessedWidgets(numOfProcessedWidgets - 4);
+      setNumOfProcessedWidgets(numOfProcessedWidgets - 1);
     }
   }
 
